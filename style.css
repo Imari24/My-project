@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgb(219, 206, 125), rgb(225, 221, 179));
+    height: 100vh;
+    font-family: 'poppins';
+}
+.navBar{
+   font-size: 17px;
+   font-weight: 500;
+   color: #040e29;
+   font-family:'poppins';
+}
+.nav-Bar{
+   display: flex;
+   justify-content: space-evenly;
+   height: 12vh;
+   width: 100%;
+   align-items: center;
+}
+nav ul li{
+    list-style: none;
+    display: inline-flex;
+    margin: 0 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: #040e29;
+}
+nav ul li a:hover{
+   border: 1px solid rgba(60, 60, 60, 0.386);
+   border-radius: 5px;
+   padding: 10px;
+}
+.logo{
+    font-family: font-family:'poppins';
+    font-weight: 700;
+}
+.btn{
+    padding: 10px;
+    width: 8%;
+    border-radius: 30px;
+    background-color: #040e29;
+    border: 1px solid #040e29;
+    color: white;
+}
+.btn:hover{
+    cursor: pointer;
+    color: rgb(210, 180, 30);
+    margin-top: -2px;
+    border: 1px solid rgb(214, 183, 45);
+    
+}
+.mainHeading{
+    width: 70%;
+    font-family:'poppins' ;
+    font-size: 3rem;  
+    font-weight: 700;
+    line-height: 70px;
+    text-align: center;
+    margin: 20px auto;
+    color: #040e29;
+}
+.gridContainer{
+    display: grid;
+    width: 30%;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+
+    
+}
+.Box{
+    text-align: center;
+    margin: auto;
+}
